@@ -38,7 +38,7 @@ sentiment_dict = {
 
 
 def make_prediction(s):
-    print(str(s))
+    # print(str(s))
     s = preprocess(str(s))
     prediction = predict_sentiment(s)
     return f'The tweet has a {sentiment_dict[str(prediction)]} sentiment'
