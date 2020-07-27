@@ -14,12 +14,12 @@
             </h1>
         </div>
         <div>
-            <form action="" method="post">
+            <form action="" method="POST">
                 {{ form.hidden_tag() }}
                 <div class="field">
                     <label class="label">Input Tweet</label>
                     <div class="control">
-                        <input class="input is-primary" type="text" placeholder="Place your tweet here">
+                        {{ form.tweet(class="input is-primary", type="text", placeholder="Place your tweet here") }}
                     </div>
                 </div>
                 <div class="control">
