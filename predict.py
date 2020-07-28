@@ -5,6 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+nltk.download('stopwords')
 model = pickle.load(open('model.pkl', 'rb'))
 cv = pickle.load(open('cv.pkl', 'rb'))
 
