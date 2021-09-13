@@ -1,4 +1,4 @@
-An end to end machine learning project.
+An NLP model served through a simple Flask web page, that tells you whether the tweet provided has positive or negative emotion. 
 
 We start by building an NLP model that predicts tweet sentiment.
 Dataset found here: https://www.kaggle.com/crowdflower/twitter-airline-sentiment
