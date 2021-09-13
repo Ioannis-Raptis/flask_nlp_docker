@@ -9,7 +9,9 @@ The app is set up to be deployed on a production grade server with waitress.
 
 Finally we Dockerize our application.
 
-To run, build (or download) the image:
-docker build -t ioannisid/flask_nlp .
+To run the app, first download the image:
+docker pull  ioannisid/flask_nlp
 Then run it with:
 docker run -p 8080:8080 ioannisid/flask_nlp
+Go to http://localhost:8080/ in your browser.
+There you have it :)
